@@ -16,6 +16,8 @@ public class TestStudent
 
         student.setSemester(Integer.parseInt("2"));
         System.out.println("Semestre:"+student.getSemester());
-        
+
+
+        student.toString();
     }
 }

@@ -27,6 +27,14 @@ public class Student {
     public void setCareer(String career) {this.career = career;}
 
     public void setSemester(int semester) {Semester = semester;}
-
+    public String toString() {
+        System.out.println("Los datos del estudiante");
+        System.out.println("Nombre:" + getName());
+        System.out.println("apellidos:" + getLastName());
+        System.out.println("numero de control:"+ getControlNumber());
+        System.out.println("Carrera:"+ getCareer());
+        System.out.println("Semestre:"+ getSemester());
+        return "";
+    }
 
 }
